@@ -1,0 +1,109 @@
+<section class="footer_one {{#footer_2}} home3 {{/footer_2}} {{#footer_3}} home4 {{/footer_3}}">
+  <div class="container">
+    <div class="row">
+      <div class="{{{footer_row_1_col_1_class}}}">
+        <div class="follow-widget {{#footer_1}} home1 {{/footer_1}} {{#footer_2}} home3 {{/footer_2}} {{#footer_3}} home3 {{/footer_3}}">
+          <span class="footer_social_title">{{ footer_row_1_col_1_title }}:</span>
+          <div class="footer_social_widget">
+            <ul>
+              {{> theme_edumy/ccn_social_icons }}
+            </ul>
+          </div>
+        </div>
+      </div>
+      {{#footer_row_1_column_2}}
+        <div class="{{{footer_row_1_col_2_class}}}">
+          <div class="footer_iso_icons_widget row {{#footer_2}} home3 {{/footer_2}} {{#footer_3}} home4 {{/footer_3}}">
+            {{#footer_row_1_col_2_icon_1}}<div class="{{footer_iso_icon_class}}"><img class="img-fluid" src="{{footer_row1col2_icon1}}"/></div>{{/footer_row_1_col_2_icon_1}}
+            {{#footer_row_1_col_2_icon_2}}<div class="{{footer_iso_icon_class}}"><img class="img-fluid" src="{{footer_row1col2_icon2}}"/></div>{{/footer_row_1_col_2_icon_2}}
+            {{#footer_row_1_col_2_icon_3}}<div class="{{footer_iso_icon_class}}"><img class="img-fluid" src="{{footer_row1col2_icon3}}"/></div>{{/footer_row_1_col_2_icon_3}}
+          </div>
+        </div>
+      {{/footer_row_1_column_2}}
+      {{#footer_row_1_column_3}}
+        <div class="{{{footer_row_1_col_3_class}}}">
+          <div class="footer_logo_icons_widget {{#footer_2}} home3 {{/footer_2}} {{#footer_3}} home4 {{/footer_3}}">
+            {{#footer_row_1_col_3_icon_1}}<div class="{{footer_logo_icon_class}}"><img class="img-fluid" src="{{footer_row1col3_icon1}}"/></div>{{/footer_row_1_col_3_icon_1}}
+            {{#footer_row_1_col_3_icon_2}}<div class="{{footer_logo_icon_class}}"><img class="img-fluid" src="{{footer_row1col3_icon2}}"/></div>{{/footer_row_1_col_3_icon_2}}
+          </div>
+        </div>
+      {{/footer_row_1_column_3}}
+    </div>
+  </div>
+</section>
+{{#footer_row_2}}
+  <section class="footer_two {{#footer_2}} home3 {{/footer_2}} {{#footer_3}} home4 {{/footer_3}}">
+    <div class="container">
+      <div class="row">
+        {{#footer_row_2_column_1}}
+          <div class="{{{footer_row_2_col_1_class}}}">
+            <div class="footer_contact_widget {{#footer_2}} home3 {{/footer_2}} {{#footer_3}} home4 {{/footer_3}}">
+              <h4>{{{ footer_row_2_col_1_title }}}</h4>
+              {{{ footer_row_2_col_1_body }}}
+            </div>
+          </div>
+        {{/footer_row_2_column_1}}
+        {{#footer_row_2_column_2}}
+          <div class="{{{footer_row_2_col_2_class}}}">
+            <div class="footer_company_widget {{#footer_2}} home3 {{/footer_2}} {{#footer_3}} home4 {{/footer_3}}">
+              <h4>{{{ footer_row_2_col_2_title }}}</h4>
+              {{{ footer_row_2_col_2_body }}}
+            </div>
+          </div>
+        {{/footer_row_2_column_2}}
+        {{#footer_row_2_column_3}}
+          <div class="{{{footer_row_2_col_3_class}}}">
+            <div class="footer_program_widget {{#footer_2}} home3 {{/footer_2}} {{#footer_3}} home4 {{/footer_3}}">
+              <h4>{{{ footer_row_2_col_3_title }}}</h4>
+              {{{ footer_row_2_col_3_body }}}
+            </div>
+          </div>
+        {{/footer_row_2_column_3}}
+        {{#footer_row_2_column_4}}
+          <div class="{{{footer_row_2_col_4_class}}}">
+            <div class="footer_support_widget {{#footer_2}} home3 {{/footer_2}} {{#footer_3}} home4 {{/footer_3}}">
+              <h4>{{{ footer_row_2_col_4_title }}}</h4>
+              {{{ footer_row_2_col_4_body }}}
+            </div>
+          </div>
+        {{/footer_row_2_column_4}}
+        {{#footer_row_2_column_5}}
+          <div class="{{{footer_row_2_col_5_class}}}">
+            <div class="footer_apps_widget {{#footer_2}} home3 {{/footer_2}} {{#footer_3}} home4 {{/footer_3}}">
+              <h4>{{{ footer_row_2_col_5_title }}}</h4>
+              {{{ footer_row_2_col_5_body }}}
+            </div>
+          </div>
+        {{/footer_row_2_column_5}}
+      </div>
+    </div>
+  </section>
+{{/footer_row_2}}
+
+<section class="footer_middle_area p0 {{#footer_2}} home3 {{/footer_2}} {{#footer_3}} home4 {{/footer_3}}">
+  <div class="container">
+    <div class="row">
+      {{#footer_menu}}
+        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center pb25 pt25">
+          <div class="footer_menu_widget">
+            {{{footer_menu}}}
+          </div>
+        </div>
+      {{/footer_menu}}
+    </div>
+  </div>
+</section>
+
+{{#cocoon_copyright}}
+  <section class="footer_bottom_area pt25 pb25 {{#footer_2}} home3 {{/footer_2}} {{#footer_3}} home4 {{/footer_3}}">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 offset-lg-3">
+          <div class="copyright-widget text-center">
+            <p>{{{ cocoon_copyright }}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+{{/cocoon_copyright}}
